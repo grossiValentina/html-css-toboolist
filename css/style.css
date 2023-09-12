@@ -6,6 +6,7 @@
 }
 body{
     background-color: lightgray;
+    
 }
 
 /* HEADER */
@@ -24,13 +25,18 @@ body{
 /* /HEADER */
 
 /* MIAN */
+main{
+    width: 70%;
+    margin: 30px auto;
+    background-color: white;
+    padding: 20px 20px 20px;
+
+}
 .blocco{
     width: 80%;
     margin: auto;
-    
-    
+    padding: 10px 10px 10px;
 }
-
 
 .bottone1{
     background-color: lightskyblue;
@@ -45,45 +51,71 @@ body{
     border-color: grey;
 }
 
+.riga{
+    color: lightgrey;
+}
+
 /* lista annidata */
 .titolo-lista{
     font-family: 'Roboto', sans-serif; 
-    list-style-type: none;
+}
+ul{
+    list-style-type:none;
 }
 
 .rettangolo-blu{
     background-color: cornflowerblue;
     border-radius: 10px;
     color: white;
+    font-size: 10px;
 }
 
 .rettangolo-viola{
     background-color: blueviolet;
     border-radius: 10px;
     color: white;
+    font-size: 10px;
 }
 .rettangolo-verde{
     background-color: olivedrab;
     border-radius: 20px;
     color: white;
+    font-size: 10px;
 }
 
 .rettangolo-arancio{
     background-color: darkorange;
     border-radius: 20px;
     color: white;
+    font-size: 10px;
 }
 
 .rettangolo-fucsia{
     background-color: fuchsia;
     border-radius: 20px;
     color: white;
+    font-size: 10px;
 }
 
 .rettangolo-verde-chiaro{
     background-color: limegreen;
     border-radius: 20px;
     color: white;
+    font-size: 10px;
+}
+.cerchio{
+    border: 1px solid red;
+    display: inline-block;
+    border-radius: 50%;
+}
+.x-rosso{
+    color: red;
+    border-color: red;
+    
+}
+.v-verde{
+    color: green;
+    border-color: green;
 }
 
 }
