@@ -4,3 +4,44 @@
     box-sizing: border-box;
 
 }
+body{
+    background-color: lightgray;
+}
+
+/* HEADER */
+.box-titolo{
+    background-color: white;
+}
+.logo{
+    padding: 10px;
+    vertical-align: middle;
+}
+.logo-titolo{
+    vertical-align: middle;
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;;
+}
+
+.bottone1{
+    background-color: lightskyblue;
+    color: white;
+    border-radius: 3px;
+    border-color: lightskyblue ;
+}
+.bottone2{
+    background-color: white;
+    color: grey;
+    border-radius: 3px;
+    border-color: grey;
+}
+
+
+
+
+
+
+
+
+
+
+
