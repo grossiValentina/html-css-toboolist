@@ -21,6 +21,16 @@ body{
     font-size: 40px;
     font-family: 'Roboto', sans-serif;;
 }
+/* /HEADER */
+
+/* MIAN */
+.blocco{
+    width: 80%;
+    margin: auto;
+    
+    
+}
+
 
 .bottone1{
     background-color: lightskyblue;
@@ -35,8 +45,53 @@ body{
     border-color: grey;
 }
 
+/* lista annidata */
+.titolo-lista{
+    font-family: 'Roboto', sans-serif; 
+    list-style-type: none;
+}
+
+.rettangolo-blu{
+    background-color: cornflowerblue;
+    border-radius: 10px;
+    color: white;
+}
+
+.rettangolo-viola{
+    background-color: blueviolet;
+    border-radius: 10px;
+    color: white;
+}
+.rettangolo-verde{
+    background-color: olivedrab;
+    border-radius: 20px;
+    color: white;
+}
+
+.rettangolo-arancio{
+    background-color: darkorange;
+    border-radius: 20px;
+    color: white;
+}
+
+.rettangolo-fucsia{
+    background-color: fuchsia;
+    border-radius: 20px;
+    color: white;
+}
+
+.rettangolo-verde-chiaro{
+    background-color: limegreen;
+    border-radius: 20px;
+    color: white;
+}
+
+}
+/* /list annidata */
 
 
+
+/* /MAIN */
 
 
 
